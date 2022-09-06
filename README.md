@@ -64,5 +64,26 @@
   
   ### Polymorphism:
   ![polymorphism](https://user-images.githubusercontent.com/65683151/188716117-2d91cc1d-81f4-42da-9906-ae070b60ac09.png)
+  ```
+  class Creature():
+    def move(self):
+        print("the creature moves")
+
+  class Dragon(Creature):
+      def move(self):
+          print("the dragon flies")
+
+  class Kraken(Creature):
+      def move(self):
+          print("the kraken swims")
+
+  for creature in [Creature(), Dragon(), Kraken()]:
+      creature.move()
+  # prints:
+  # the creature moves
+  # the dragon flies
+  # the kraken swims
+  ```
+  
 
   
