@@ -55,4 +55,7 @@
   ```
   - Encapsulation Does Not Make Systems More Secure. It makes it "cleaner"
 
+  ### Abstraction:
+  - The goal of abstraction is to handle complexity by hiding unnecessary details from the user.
+  - The process of using the double underscore is an encapsulation method. The process of deciding which data deserves to be hidden behind the double underscore is abstraction.
   
