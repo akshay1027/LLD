@@ -58,4 +58,11 @@
   ### Abstraction:
   - The goal of abstraction is to handle complexity by hiding unnecessary details from the user.
   - The process of using the double underscore is an encapsulation method. The process of deciding which data deserves to be hidden behind the double underscore is abstraction.
+
+  ### Inheritance:
+  ![inheritance-py](https://user-images.githubusercontent.com/65683151/188714887-11067b43-f122-437e-86c2-15ba127b202f.png)
+  
+  ### Polymorphism:
+  ![polymorphism](https://user-images.githubusercontent.com/65683151/188716117-2d91cc1d-81f4-42da-9906-ae070b60ac09.png)
+
   
