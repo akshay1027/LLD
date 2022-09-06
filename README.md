@@ -61,6 +61,20 @@
 
   ### Inheritance:
   ![inheritance-py](https://user-images.githubusercontent.com/65683151/188714887-11067b43-f122-437e-86c2-15ba127b202f.png)
+  ```
+  class Animal:
+    # parent "Animal" class
+    def __init__(self, num_legs):
+        self.num_legs = num_legs
+
+  class Cow(Animal):
+    # child class "Cow" inherits "Animal"
+    def __init__(self):
+        # call the parent constructor to
+        # give the cow some legs
+        super().__init__(4)
+  ```
+  
   
   ### Polymorphism:
   ![polymorphism](https://user-images.githubusercontent.com/65683151/188716117-2d91cc1d-81f4-42da-9906-ae070b60ac09.png)
