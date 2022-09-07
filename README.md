@@ -99,5 +99,32 @@
   # the kraken swims
   ```
   
+## Abstract class decorator with eg: 
+https://blog.teclado.com/python-abc-abstract-base-classes/  
+```
+from abc import ABC,abstractmethod 
+
+class Animal(ABC):
+    @abstractmethod  
+    def do(self, action, bro): # Renamed it to "do", and it has "action" parameter
+        pass
+
+class Lion(Animal): 
+    def do(self, action, time): # It's still mandatory to implement action. "time" is our other parameter
+        print(f"{action} a lion! At {time}") 
+
+class Panda(Animal): 
+    def do(self, action, time): 
+        print(f"{action} a panda! At {time}") 
+
+class Snake(Animal): 
+    def do(self, action, time): 
+        print(f"{action} a snake! At {time}")
+        
+zoo = [Lion(), Panda(), Snake()]
+
+for animal in zoo:
+    animal.do(action="feeding", time="10:10 PM")
+```
 
   
