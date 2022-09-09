@@ -1,5 +1,11 @@
 # LLD
 
+## Approach to solve LLD problem:
+
+Model   -> Individual user model. All the fields a single user needs for the required function!
+DAO     -> Collection of all users. Each user id of type user model.
+Service -> Buisness logic
+      
 ## OOPS
 - If any task is repeated, make that task into a function and just call them everytime with different arguments.
 - In constructor, self means global context of class. The self variable is a reference to the object itself, so by using it you can read and update the properties of the object.
